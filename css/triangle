@@ -1,0 +1,7 @@
+css borderで三角形ができる理由
+
+border-topを指定しその他のboderを透明にした場合
+border-topとleft rightの境界線が斜めになる
+
+ブロック要素のwidthとheightを0にすることで縦幅、横幅がなくなる
+そして周りに○○pxの線の太さを持ったborderで囲み、１箇所以外の色を透明(transparent)にすると三角形ができる
